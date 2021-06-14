@@ -20,7 +20,7 @@
 				});
 				html += '</a>\n';
 			});
-			document.querySelector('index-blocks').innerHTML = html;
+			document.querySelector('.index-blocks').innerHTML = html;
 		}
 	}
 	
