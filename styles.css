@@ -1,0 +1,24 @@
+body {
+	font-family: sans-serif;
+	color: #ccc;
+	background: #000;
+}
+.photo-line {
+	position: relative;
+	max-width: 100%;
+	display: flex;
+	overflow: hidden;
+}
+.photo-line:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	background: linear-gradient(to right, #0000, #000e 80%, #000f);
+}
+.photo-line img {
+	margin: 0 2px;
+	height: 120px;
+}
