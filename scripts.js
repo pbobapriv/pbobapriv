@@ -16,7 +16,7 @@
 					let space = img.indexOf(' ');
 					let src = space > -1 ? img.substr(0, space) : img;
 					let alt = space > -1 ? img.substr(space + 1) : img;
-					html += `<img src="${src}" alt="${alt}" title="${alt}">\n`;
+					html += `<img src="/th/${src}" alt="${alt}" title="${alt}">\n`;
 				});
 				html += '</a>\n';
 			});
